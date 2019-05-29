@@ -11,5 +11,13 @@ public class CalculatorTest {
 		int actualValue = calc.add(2, 2);
 		Assert.assertEquals(4, actualValue);
 	}
+	
+	@Test
+	public void divide()
+	{
+		Calculator calc = new Calculator();
+		int actualValue = calc.divide(2, 2);
+		Assert.assertEquals(1, actualValue);
+	}
 
 }
