@@ -25,7 +25,7 @@ public class CalculatorTest {
 	{
 		Calculator calc = new Calculator();
 		int actualValue = calc.multiply(2, 2);
-		Assert.assertEquals(1, actualValue);
+		Assert.assertEquals(4, actualValue);
 	}
 
 
